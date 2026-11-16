@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-threejs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS threejs component"
+
+[lib]
+name = "threejs"
+path = "src/lib.rs"
