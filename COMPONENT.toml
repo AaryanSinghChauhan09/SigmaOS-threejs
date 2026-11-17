@@ -3,7 +3,7 @@ name = "SigmaOS-threejs"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "threejs component"
+description = "Three.js graphics runtime compatibility layer for SigmaOS"
 upstream = []
 
 [contract]
