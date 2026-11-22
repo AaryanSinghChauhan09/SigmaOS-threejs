@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-threejs Component Wiki
+# SigmaOS-threejs Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-threejs provides Three.js graphics runtime compatibility layer for SigmaOS for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-threejs provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-threejs Abstraction
-- Fail-Fast on SigmaOS-threejs Initialization Errors
-- Deterministic SigmaOS-threejs Setup
-- Clear Abstraction Over SigmaOS-threejs APIs
-- Composition over Inheritance for SigmaOS-threejs extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-threejs Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-threejs Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-threejs Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-threejs APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-threejs extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-threejs follows a SigmaOS-threejs pattern:
+SigmaOS-threejs follows a SigmaOS-threejs pattern:
 - **SigmaOS-threejs Core**: Provides SigmaOS-threejs support, SigmaOS-threejs management, and SigmaOS-threejs tracking
 - **Management**: Supports SigmaOS-threejs management, SigmaOS-threejs configuration, and SigmaOS-threejs lifecycle
 - **Tracking**: Supports SigmaOS-threejs status, SigmaOS-threejs tracking, and SigmaOS-threejs lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-threejs follows a SigmaOS-threejs pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-threejs by given configuration
--  - Register a SigmaOS-threejs by given name
--  - Get SigmaOS-threejs status and SigmaOS-threejs availability
--  - Track SigmaOS-threejs management and SigmaOS-threejs tracking
+- Manage a SigmaOS-threejs by given configuration
+- Register a SigmaOS-threejs by given name
+- Get SigmaOS-threejs status and SigmaOS-threejs availability
+- Track SigmaOS-threejs management and SigmaOS-threejs tracking
 - Error types for SigmaOS-threejs failure scenarios or unsupported SigmaOS-threejs types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-threejs init, SigmaOS-threejs management)
 3. **Assert**: Verify the expected SigmaOS-threejs results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-threejs initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-threejs failure scenarios
 - Unit tests provided for SigmaOS-threejs management and configuration
